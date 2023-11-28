@@ -16,7 +16,7 @@ function SignUp() {
 
   return (
     <MantineProvider>
-      <div className="flex flex-col bg-purple-700 border-x-8 pt-6 border-4" flex-wrap>
+      <div className="flex flex-col bg-blue-600 border-x-8 pt-6 border-4 w-screen h-screen" flex-wrap>
       <div className="text-center">Sign up page</div>
 
       <br></br>
