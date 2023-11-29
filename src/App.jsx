@@ -7,6 +7,19 @@ import Services from "./components/Services";
 function App() {
   return (
     <MantineProvider>
+        
+      <div className="flex flex-row text-center gap-9 justify-center pt-6 hover:bg-sky-700">
+       <img src="logo.png" width="100px"/>
+       <li><a href="#home">Home</a></li>
+       <li><a href="#about">About Us</a></li>
+       <li><a href="#involved">Get Involved</a></li>
+       <li><a href="#contacts">Contact Us</a></li>
+       <li><a href="#signin">Signin</a></li>
+       
+        
+        </div>
+      
+    
       <div className="flex justify-center pt-6 ml-0">
         <Card shadow="sm" padding="xl" component="a" href="" target="_blank">
           <Card.Section>
