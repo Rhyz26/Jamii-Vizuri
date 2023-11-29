@@ -1,10 +1,26 @@
 import '@mantine/core/styles.css';
 
+import React from "react";
+
+import { useDisclosure } from "@mantine/hooks";
+import { PasswordInput, Stack } from "@mantine/core";
+import { useState } from "react";
+import { Input, CloseButton } from "@mantine/core";
+import { IconAt } from "@tabler/icons-react";
+import { Checkbox } from "@mantine/core";
+import { Button } from "@mantine/core";
+
+
 
 import { MantineProvider } from '@mantine/core';
 import { BackgroundImage, Center, Text, Box } from '@mantine/core';
 import Contacts from "./components/Contacts";
+
+
 function App() {
+  const [value, setValue] = useState("Clear me");
+  const [visible, { toggle }] = useDisclosure(false);
+
   return (
     <MantineProvider>
       <Box maw={1800} mx="auto">
@@ -43,15 +59,51 @@ function App() {
           </Center>
         </BackgroundImage>
       </Box>
+
+
+
+      <h1 className="">Contact us </h1>
+      <br></br>
+
+      <Input size="xlg" radius="md" placeholder="First Name" />
+      <br></br>
+
+      <Input size="md" radius="md" placeholder="Last Name" />
+
+      <br></br>
+
       
+        <Input placeholder="Your email" leftSection={<IconAt size={16} />} />
+      
+      <br></br>
+
+      <Input size="md" radius="md" placeholder="Phone number" />
+      <br></br>
+
+      <Stack>
+        <Checkbox
+          defaultChecked
+          label="I accept  the Terms of Use & Privacy Policy"
+        />
+
+        
+          <Button variant="default" color="yellow" size="lg" radius="lg" className='bg-yellow-400'>
+            Submit
+          </Button>
+        
+
+        <br></br>
+      </Stack>
+
+      
+
+
+
+
       <Contacts/>
 
 
-      
-
-
-
-
+    
     </MantineProvider>
   );
 }
@@ -60,3 +112,4 @@ export default App;
 
 
 
+  
