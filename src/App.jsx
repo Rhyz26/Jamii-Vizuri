@@ -1,5 +1,6 @@
 import '@mantine/core/styles.css';
 
+
 import { MantineProvider } from '@mantine/core';
 import { BackgroundImage, Center, Text, Box } from '@mantine/core';
 import Contacts from "./components/Contacts";
@@ -42,13 +43,20 @@ function App() {
           </Center>
         </BackgroundImage>
       </Box>
+      
+      <Contacts/>
+
 
       
 
 
 
-      <Contacts/>
+
     </MantineProvider>
   );
 }
 export default App;
+
+
+
+
