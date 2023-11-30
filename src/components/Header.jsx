@@ -9,7 +9,7 @@ function Header() {
       <br></br>
       <a href="#about">About</a>
       <br></br>
-      <a href="#projects">Projects</a>
+      <a href="#projects">Services</a>
       <a href="#contacts">Contacts</a>
       <a href="#blog">Blog</a>
     </div>
