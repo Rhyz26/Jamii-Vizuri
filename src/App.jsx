@@ -1,4 +1,5 @@
 import "@mantine/core/styles.css";
+import Header from "./components/Header";
 
 import { MantineProvider } from "@mantine/core";
 
@@ -6,8 +7,14 @@ import { Card, Image, Text, Badge, Button, Group } from "@mantine/core";
 import Services from "./components/Services";
 function App() {
   return (
-    <MantineProvider>
-      <div className="flex justify-center pt-6 ml-0">
+  <MantineProvider>
+    
+    <Header/>
+    
+
+
+
+      <div className="flex justify-center pt-8 ml-0 ">
         <Card shadow="sm" padding="xl" component="a" href="" target="_blank">
           <Card.Section>
             <Image
@@ -147,3 +154,70 @@ function App() {
   );
 }
 export default App;
+
+
+
+
+
+// body {
+//     font-family: 'Handjet', cursive;
+//     font-family: 'Open Sans', sans-serif;
+//     font-family: 'Roboto', sans-serif;
+//     background-color: #004225;
+// }
+// .one {
+//     max-width: auto;
+//     margin: 0 auto;
+//     padding: 100px;
+//     background-color: brown;
+//     overflow: hidden;
+//     top: 0; 
+//     position: fixed;
+//     display:flex;
+    
+
+// }
+
+// header {
+//     color: greenyellow;
+//     position: fixed;
+//     margin: 0;
+// }
+
+// nav ul {
+//     list-style-type: none;
+//     display: flex;
+// }
+// .container {
+//     padding: 18px;
+//     margin-top: 400px;
+//     width: 100%;
+//     background-color: blueviolet;
+//     display:flex;
+//     color:blanchedalmond;
+    
+// }
+
+// nav ul li {
+//     margin-right: 20px;
+// }
+
+// nav a {
+//     text-decoration: none;
+//     color: yellowgreen;
+//     font-weight: bold;
+    
+// }
+// nav a:hover {
+// color:blue;
+// }
+// span {
+//     color: red;
+// }
+// .four {
+//     background-color: #6C3428;
+// }
+// .four a {
+//     text-align: center;
+//     display:inline;
+// }
