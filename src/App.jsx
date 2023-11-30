@@ -1,6 +1,7 @@
 import Home from "./components/Home";
 import Header from "./components/Header";
 import "@mantine/core/styles.css";
+import Footer from "./components/Footer";
 
 import { MantineProvider } from "@mantine/core";
 
@@ -25,19 +26,19 @@ function App() {
 
       <div className="flex flex-col w-60 bg-lime-700 rounded-2xl">
         <Image src="https://cdn.pixabay.com/photo/2017/01/13/01/22/ok-1976099_1280.png"w={100}/>
-        <h1 className="text-lg font-bold flex-wrap">I am i Eligible</h1>
+        <h1 className="text-lg font-bold flex-wrap text-center">I am i Eligible</h1>
         <p>I would love to become a patient</p>
       </div>
 
-      <div className="flex flex-col bg-yellow-300 w-60 rounded-2xl">
+      <div className="flex flex-col bg-amber-700 w-60 rounded-2xl">
         <Image src="https://cdn.pixabay.com/photo/2020/10/20/19/12/elderly-5671352_1280.png" w={100}/>
-        <h1 className="font-bold text-lg">Volunteer</h1>
+        <h1 className="font-bold text-lg text-center">Volunteer</h1>
         <p>I would love to get involved</p>
       </div>
 
       <div className="flex flex-col bg-fuchsia-800 w-60 rounded-2xl">
         <Image src="https://mymbchc.org/wp-content/uploads/2021/02/banner-image-1-1-1.png" w={100}/>
-        <h1 className="text-lg font-bold">Patient Resources</h1>
+        <h1 className="text-lg font-bold text-center">Patient Resources</h1>
         <p>I am looking for health Information</p>
       </div>
 </div>
@@ -47,6 +48,7 @@ function App() {
        
         <Home />
       </div>
+      <Footer/>
     </MantineProvider>
   );
 }
