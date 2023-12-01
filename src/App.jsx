@@ -8,15 +8,14 @@ import { MantineProvider } from "@mantine/core";
 function App() {
   return (
     <MantineProvider>
-       <div>
-          <Header />
-        </div>
-        <div>
-          <Blog/>
-        </div>
+      <div>
+        <Header />
+      </div>
+      <div>
+        <Blog />
+      </div>
 
-      
-      <Footer/>
+      <Footer />
     </MantineProvider>
   );
 }
