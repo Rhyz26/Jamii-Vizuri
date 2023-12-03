@@ -70,7 +70,7 @@ function Home() {
           here to support you.
         </p>
 
-        <h1 className="pb-1.5 font-bold text-center text-xl">
+        <h1 className="pb-1.5 pt-4 font-bold text-center text-xl">
           Explore Our Services
         </h1>
 
