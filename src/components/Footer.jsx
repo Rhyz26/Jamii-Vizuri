@@ -45,13 +45,3 @@ function Footer(){
 }
 export default Footer;
 
-
-// <a href="https://www.linkedin.com/in/raymond-njagala-9a6309a8/" target="_blank" i class="fa-brands fa-linkedin fa-bounce" style="color: #26df66;"></i></a></li>
-//             <br>  
-//             <li>
-//                 <a href="https://twitter.com/Initial_Rhy" target="_blank" i class="fa-brands fa-twitter fa-beat-fade" style="color: #24d917;"></a>
-//             </li>
-//             <br>
-//             <li>
-//                 <a href="https://wa.me/256703897243" target="_blank" i class="fa-brands fa-square-whatsapp fa-beat-fade" style="color: #7cee2f;"></a></i>
-//             </li>
