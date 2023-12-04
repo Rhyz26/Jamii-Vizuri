@@ -11,6 +11,7 @@ function App() {
     <div>
       <Header/>
       <Blog />
+      <Home />
       <Services/>
       <Footer />
     </div>
