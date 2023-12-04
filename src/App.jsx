@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import "@mantine/core/styles.css";
 import Footer from "./components/Footer";
 import Services from "./components/Services";
+import Home from "./components/Home";
 import { MantineProvider } from "@mantine/core";
 
 function App() {
