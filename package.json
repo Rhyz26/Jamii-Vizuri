@@ -20,6 +20,7 @@
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
     "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.16",
     "eslint": "^8.53.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
@@ -27,6 +28,10 @@
     "postcss": "^8.4.31",
     "postcss-preset-mantine": "^1.11.0",
     "postcss-simple-vars": "^7.0.1",
+<<<<<<< HEAD
+=======
+    "tailwindcss": "^3.3.5",
+>>>>>>> develop
     "vite": "^5.0.0"
   }
 }
