@@ -1,17 +1,21 @@
-import '@mantine/core/styles.css';
+import Blog from "./components/Blog";
+import Header from "./components/Header";
+import "@mantine/core/styles.css";
+import Footer from "./components/Footer";
+import Services from "./components/Services";
+import Home from "./components/Home";
+import { MantineProvider } from "@mantine/core";
 
-import { MantineProvider } from '@mantine/core';
-import SignUp from './components/Sign';
-import { useState } from 'react';
-import { Input, CloseButton } from '@mantine/core';
-import { IconAt } from '@tabler/icons-react';
-
-
-
-function App(){
+function App() {
   return(
-    <MantineProvider>  
-
+    <MantineProvider>
+    <div>
+      <Header/>
+      <Blog />
+      <Home />
+      <Services/>
+      <Footer />
+    </div>
     </MantineProvider>
 
   )
