@@ -10,15 +10,9 @@ import { IconAt } from '@tabler/icons-react';
 
 function App(){
   return(
-    <MantineProvider>
+    <MantineProvider>  
 
-      
-
-    <div>
-      <SignUp
-      />
-    </div>
-      </MantineProvider>
+    </MantineProvider>
 
   )
 }
