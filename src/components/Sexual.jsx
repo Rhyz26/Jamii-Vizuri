@@ -1,8 +1,8 @@
-import { Image } from "@mantine/core";
+import React from 'react'
 
-function Sexual() {
+export default function Sexual() {
   return (
-    <div className="font-serif mx-auto max-w-[90%] text-xl">
+    <div><div className="font-serif mx-auto max-w-[90%] text-xl">
       <h1 className="text-center font-bold pb-4 text-3xl pt-4">
         Taking Charge of Your Sexual & Reproductive Health in Kampala
       </h1>
@@ -142,6 +142,6 @@ function Sexual() {
         </p>
       </div>
     </div>
-  );
+</div>
+  )
 }
-export default Sexual;

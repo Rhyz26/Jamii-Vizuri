@@ -10,8 +10,8 @@ import About from "./components/About";
 import { BrowserRouter, Routes, Route } from "react-router-dom"; import RequestAppointment from "./components/RequestAppointment";
 import Register from "./components/Register";
 import Volunteer from "./components/Volunteer";
-import Sexual from "./components/sexual";
 import Drug from "./components/Drug";
+import Sexual from "./components/Sexual"
 import Mental from "./components/Mental";
 
 function App() {
