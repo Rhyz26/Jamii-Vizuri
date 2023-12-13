@@ -1,21 +1,45 @@
 import React from "react";
 import { Image } from "@mantine/core";
-
+import { Link } from "react-router-dom";
 function Header() {
   return (
-    <div className="flex space-between font-bold space-y-5 ml-px hover:bg-violet-600 pb-2.5 space-x-28 bg-lime-500 pb-5 w-screen items-center border-4 rounded-xl">
-      <Image src="logo.png" w={200} />
-      <a href="#home">Home</a>
-      <br></br>
-      <a href="#about">About</a>
-      <br></br>
-      <a href="#service">Services</a>
-      <a href="#contacts">Contacts</a>
-      <a href="#blog">Blog</a>
+    <div className="flex font-bold space-y-5 ml-px  bg-lime-500 pb-5 w-screen items-center border-4 rounded-lg ">
+      <Image src="logo.png" w={100} />
+      {/* bg-lime-500 */}
+      <header>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+
+            <li>
+              <Link to="/services">Services</Link>
+            </li>
+
+            {/* <li>
+              <Link to="/blog">Blog</Link>
+            </li> */}
+
+            <li>
+              <Link to="/contacts">Contact Us</Link>
+            </li>
+
+            <li>
+              <Link to="/requestappointment">Request Appointment</Link>
+            </li>
+
+            <li>
+              <Link to="/register">Register</Link>
+            </li>
+          </ul>
+        </nav>
+      </header>
     </div>
   );
 }
 export default Header;
-
-
-// flex space-between font-bold space-y-5 fixed  ml-px hover:bg-violet-600 pb-2.5 space-x-28 bg-amber-800 pb-5 w-screen top-0
