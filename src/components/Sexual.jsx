@@ -1,4 +1,5 @@
 import React from 'react'
+import { Image } from '@mantine/core'
 
 export default function Sexual() {
   return (

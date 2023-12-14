@@ -21,9 +21,9 @@ function Header() {
               <Link to="/services">Services</Link>
             </li>
 
-            {/* <li>
+            <li>
               <Link to="/blog">Blog</Link>
-            </li> */}
+            </li>
 
             <li>
               <Link to="/contacts">Contact Us</Link>

@@ -1,5 +1,4 @@
 import Contacts from "./components/Contacts";
-import Blog from "./components/Blog";
 import Header from "./components/Header";
 import "@mantine/core/styles.css";
 import Footer from "./components/Footer";
@@ -13,6 +12,7 @@ import Volunteer from "./components/Volunteer";
 import Drug from "./components/Drug";
 import Sexual from "./components/Sexual"
 import Mental from "./components/Mental";
+import Blog from "./components/Blog";
 
 function App() {
   return (
