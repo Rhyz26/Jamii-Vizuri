@@ -1,3 +1,5 @@
+import React, { useState, useEffect } from "react";
+
 import {
   Image,
   Button,
@@ -16,6 +18,7 @@ function Volunteer() {
       Location: "",
     },
   });
+const [successMessage, setSuccessMessage] = useState("");
 
   const handlePost = (values) => {
     fetch("http://localhost:1337/api/volunteers", {
@@ -31,17 +34,18 @@ function Volunteer() {
           Location: values.Location,
         },
       }),
-    }).then((response) => {
+     }).then((response) => {
       if (response.ok) {
+        setSuccessMessage("You have successfully registered");
         form.reset();
 
-        <Notification title="We notify you that">
-          You are now obligated to give a star to Mantine project on GitHub
-        </Notification>;
-
-        setSuccessMessage("Appointment Successfully Sent");
+        setTimeout(() => {
+          close();
+          setSuccessMessage("");
+        }, 2300);
       }
     });
+
   };
 
   return (
@@ -171,6 +175,17 @@ function Volunteer() {
                 </Button>
               </div>
             </form>
+
+              {successMessage && (
+            <Notification
+              icon={<IconCheck size="1.1rem" />}
+              color="teal"
+              title="Successfully Registered."
+            >
+              {successMessage}
+            </Notification>
+          )}
+
           </div>
         </div>
       </div>

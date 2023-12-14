@@ -112,3 +112,40 @@ function Home() {
   );
 }
 export default Home;
+
+
+
+
+
+
+// import { Image } from '@mantine/core';
+// import { useRef } from 'react';
+// import Autoplay from 'embla-carousel-autoplay';
+// import { Carousel } from '@mantine/carousel';
+// function Home(){
+//   const autoplay = useRef(Autoplay({ delay: 2000 }));
+
+//   return(
+//     <div>
+//  <Carousel
+//       withIndicators
+//       height={200}
+//       plugins={[autoplay.current]}
+//       onMouseEnter={autoplay.current.stop}
+//       onMouseLeave={autoplay.current.reset}
+//     >
+//       <Carousel.Slide><Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcDKeUtReOu8FOhgjm-TmgZjDD6FQYaYexTg&usqp=CAU"/></Carousel.Slide>
+//       <Carousel.Slide><Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcDKeUtReOu8FOhgjm-TmgZjDD6FQYaYexTg&usqp=CAU"/></Carousel.Slide>
+//       <Carousel.Slide><Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcDKeUtReOu8FOhgjm-TmgZjDD6FQYaYexTg&usqp=CAU"/></Carousel.Slide>
+//       {/* ...other slides */}
+//     </Carousel>
+//     </div>
+//   )
+// }
+// export default Home;
+
+
+
+
+
+
