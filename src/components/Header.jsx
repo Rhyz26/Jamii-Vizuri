@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <div className="flex font-bold space-y-5 ml-px  bg-lime-500 pb-5 w-screen items-center border-4 rounded-lg ">
-      <Image src="logo.png" w={100} />
+      <Image src="/assets/logo.png" w={100} />
       {/* bg-lime-500 */}
       <header>
         <nav>

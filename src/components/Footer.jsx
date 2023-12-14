@@ -3,7 +3,7 @@ function Footer() {
   return (
     <div className="bg-lime-500 flex space-x-40 justify-center pt-4 pb-4 border-4 rounded-xl  position: sticky;">
       <div className="ml-">
-        <Image src="logo.png" w={100} />
+        <Image src="/assets/logo.png" w={100} />
         <p>Jamii Vizuri</p>
         <p>Your health is our priority!</p>
       </div>
